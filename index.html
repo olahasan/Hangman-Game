@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern version, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-info">
+        <div class="game-name">Hangman</div>
+        <div class="category">Word From: <span></span></div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="hangman-draw">
+          <div class="the-draw">
+            <div class="the-stand"></div>
+            <div class="the-hang"></div>
+            <div class="the-rope"></div>
+            <div class="the-man">
+              <div class="head"></div>
+              <div class="body"></div>
+              <div class="hands"></div>
+              <div class="legs"></div>
+            </div>
+          </div>
+        </div>
+        <div class="letters"></div>
+      </div>
+      <hr />
+      <div class="letters-guess"></div>
+    </div>
+
+    <div class="finish">
+      <video class="video-background" hidden poster="images/videoCover.png">
+        <source
+          src="video/stationary shot of gold and pink confetti falling against grey background_preview.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <audio class="myAudioCorrectAnswer" controls hidden preload="auto">
+      <source src="audio/mixkit-achievement-bell-600.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio class="myAudiowrongAnswer" controls hidden preload="auto">
+      <source
+        src="audio/mixkit-game-show-wrong-answer-buzz-950.mp3"
+        type="audio/mp3"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio class="myAudiocongratulations" controls hidden>
+      <source
+        src="audio/mixkit-game-level-completed-2059_1.mp3"
+        type="audio/mp3"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio class="myAudioGameOver" controls hidden>
+      <source src="audio/mixkit-falling-game-over-1942.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="main.js"></script>
+    <!-- <script src="main1.js"></script> -->
+  </body>
+</html>
