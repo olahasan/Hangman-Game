@@ -42,7 +42,8 @@ Otherwise, all links will open in the same tab.
  
 ![Screenshot](./images/screenshot.png)
 ![Screenshot](./images/screenshot2.png)
-![Screenshot](./images/screenshot3.png)
+![Screenshot](./images/screenshott3.png)
+![Screenshot](./images/screenshot4.png)
 
 ## my-process
 
